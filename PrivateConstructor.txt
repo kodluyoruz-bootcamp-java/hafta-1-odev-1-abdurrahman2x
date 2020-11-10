@@ -1,3 +1,0 @@
-+"private" erişim belirteci ile kurucu metod oluşturabilir miyiz? Oluşturabiliyorsak buna neden ihtiyacımız var?
--Evet oluşturabiliyoruz. Eğer bir sınıftan nesne oluşturulmasını veya kalıtım yapılmasını istemiyorsak ve sadece static metod/değişkenlerinin kullanılmasını istiyorsak, sadece 1 adet kurucu metod tanımlarız ve erişim belirtecini private olarak seçeriz,
-bu sayede sınıftan nesne oluşturulamaz, kalıtım yapılamaz, dolayısıyla bu sınıf sadece static değişken ve metodlarını kullanmak için kullanabilir.
