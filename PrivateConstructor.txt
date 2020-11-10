@@ -1,0 +1,5 @@
+Bir sınıfta private kurucu metod kullanırsak o sınıftan nesne üretilmez,
+ancak sınıfın static değişken ve metodlarını kullanabiliriz.
+sürekli aynı işlemi yaptıracağımız metodları bir sınıfa yazıp private constructor kullanırsak
+her işlem için nesne oluşturmanın dolayısıyla gereksiz bellek tüketiminin önüne geçmiş oluruz.
+örnek olarak  
